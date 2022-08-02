@@ -1,0 +1,36 @@
+.content{
+   height: 500px;
+   display: flex;
+   align-items: center;
+}
+.div{
+   background-color: rgba(13,186,75,255);
+   width: 420px;
+   display: flex;
+   margin: 0 auto;
+   border-radius: 5px;
+   justify-content:space-around;
+box-shadow: 3px 3px green;
+}
+.a{
+   display: inline-block;
+   padding: 10px 0;
+   text-align: center;
+   transition: 0.5s;
+   transition-duration: 0.9s;
+}
+.img{
+   padding: 0px 20px;
+   
+}
+
+.a:hover{
+   background-color: green;
+ 
+}
+.a:hover:nth-child(1){
+   border-radius: 5px 0px 0px 5px;
+}
+.a:hover:nth-child(4){
+   border-radius: 0px 5px 5px 0px;
+}
