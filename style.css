@@ -5,7 +5,7 @@
 }
 .div{
    background-color: rgba(13,186,75,255);
-   width: 420px;
+   max-width: 420px;
    display: flex;
    margin: 0 auto;
    border-radius: 5px;
