@@ -2,6 +2,7 @@
    height: 500px;
    display: flex;
    align-items: center;
+   padding: 0px 50px;
 }
 .div{
    background-color: rgba(13,186,75,255);
